@@ -8,6 +8,7 @@ count = ''
 print (message)
 identify = (index for index,y in enumerate(testlist) if y == message[x])
 print(count)
+identify = "9"
 while x <= length:
     for index in identify:
         if message[x] != testlist[0:62]:
